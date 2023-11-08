@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+.line {
+    width: 1px;
+    height: 13px;
+    margin: 0px 12px;
+    background-color: rgb(217, 217, 217);
+}
+
+/* header ====================== */
+header {
+    background-color: aqua;
+}
+.top_header {
+    width: 1050px;
+    height: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+.box3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: 35px;
+}
+
+.logo {
+    height: 42px;
+    width: 82px;
+}
+
+.box2 {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.bt1,.bt2 {
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+}
+.bt1 {
+    margin-left: 20px;
+}
+.bt2 {
+    margin-left: 12px;
+}
+.bt1::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    margin-top: 5px;
+    margin-left: 11px;
+    background-color: rgb(217, 217, 217);
+}
+.search_box {
+    display: flex;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 48px;
+    background-color: white;
+    border-radius: 5px ;
+    padding-left: 10px;
+    border: 1px solid;
+}
+.search_line {
+    width: 300px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.search_bt {
+    position: absolute;
+    right: 0;
+    width : 36px;
+    height: 36px;
+    margin: 5px;
+}
+/* main ====================== */
+main {
+    background-color:beige;
+}
+/* footer ====================== */
+
+footer {
+    background-color:cornflowerblue;
+}
